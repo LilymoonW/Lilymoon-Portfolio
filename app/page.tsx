@@ -8,10 +8,8 @@ export default function Home() {
       <div className="max-w7xl w-full">
         <Navbar/>
         <Hero/>
-      </div>
-      <div>
         <Projects/>
-      </div>
+      </div> 
     </main>
   );
 }

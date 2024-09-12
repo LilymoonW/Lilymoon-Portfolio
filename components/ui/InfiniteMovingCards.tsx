@@ -11,9 +11,10 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    quote: string;
+    description: string;
     name: string;
-    title: string;
+    image: string;
+    link: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -65,7 +66,7 @@ export const InfiniteMovingCards = ({
       } else if (speed === "normal") {
         containerRef.current.style.setProperty("--animation-duration", "40s");
       } else {
-        containerRef.current.style.setProperty("--animation-duration", "110s");
+        containerRef.current.style.setProperty("--animation-duration", "90s");
       }
     }
   };
@@ -92,27 +93,41 @@ export const InfiniteMovingCards = ({
               background:
                 "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
             }}
-            key={item.name} >
+            key={item.name}
+          >
             <blockquote>
               <div
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-             
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
+
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full h-full relative z-20 mt-6 flex flex-row justify-center items-center gap-4 hover:cursor-pointer"
+              >
+                <span className="w-2/3 flex flex-col justify-center items-center gap-1">
+                  {/* title of the project */}
+                  <span className=" text-lg leading-[1.6] text-gray-100 font-bold">
+                    {item.name}
                   </span>
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
+                  {/* description of project */}
+                  <span className=" relative z-20 text-sm leading-[1.6]  text-gray-400 font-normal ">
+                    {item.description}
                   </span>
                 </span>
 
-              </div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                {item.quote}
-              </span>
+                {/* this makes sure that the image is next to the description */}
+                {/* image */}
+                <div className="w-1/3 h-full rounded-sm">
+                  <img
+                    src={item.image}
+                    alt="Description of the image"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </a>
             </blockquote>
           </li>
         ))}
