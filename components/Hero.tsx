@@ -9,6 +9,13 @@ import { FaLocationArrow } from "react-icons/fa";
 import Navbar from "./Navbar";
 
 const Hero = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Lilymoon_Whalen_Resume.pdf";
+    link.download = "Lilymoon-Whalen-Resume.pdf";
+    link.click(); 
+  };
+
   return (
     <div id="about-me">
       <Vortex rangeY={2000} className=" md:px-10  w-full h-full pb-36 pt-36 ">
@@ -23,20 +30,25 @@ const Hero = () => {
             </h2>
 
             <p className="text-left">
-              I'm a sophmore at Wellesley college persuing a computer science major. I'm passionate about the intersection
-              between technology and social impact and am currently learning web
-              development and App development.
+              I'm a sophmore at Wellesley college persuing a computer science
+              major. I'm passionate about the intersection between technology
+              and social impact and am currently learning web development and
+              App development.
             </p>
             <p className="text-left t-2">
-            My interests outside of coding
-            include baking, listening to music, being involved in DanceSport (competitive ballroom dancing), and art.
+              My interests outside of coding include baking, listening to music,
+              being involved in DanceSport (competitive ballroom dancing), and
+              art.
             </p>
-            <BackdropButton
-              name="Show My Work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          
+
+            
+              <BackdropButton
+                handleCLick={handleDownload}
+                name="Download My Resume"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+              
           </div>
 
           {/* image of me */}
