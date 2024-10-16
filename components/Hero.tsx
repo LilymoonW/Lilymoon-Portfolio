@@ -30,8 +30,8 @@ const Hero = () => {
             </h2>
 
             <p className="text-left">
-              I'm a sophmore at Wellesley college persuing a computer science
-              major. I'm passionate about the intersection between technology
+              I&#39;m a sophmore at Wellesley college persuing a computer science
+              major. I&#39;m passionate about the intersection between technology
               and social impact and am currently learning web development and
               App development.
             </p>

@@ -55,7 +55,7 @@ const projects = [
   
   {
     description:
-      "An interactive fiction game under theme of 'retelling'. Created sprite sheets, storyboarding, and helped code the game. Placed third in the Wellesley Game Jam",
+      "An interactive fiction game under theme of &#39;retelling&#39;. Created sprite sheets, storyboarding, and helped code the game. Placed third in the Wellesley Game Jam",
     image: "gameJam.png",
     name: "Game Jam Interactive Storytelling Game.",
     link: "https://lwhalen.itch.io/matcha-loops"
