@@ -10,10 +10,10 @@ const Navbar = () => {
         <a href="#projects" className="cursor-pointer hover:text-blue-100 ">
           Projects
         </a>
-        <a href="#about-me" className="cursor-pointer hover:text-blue-100 ">
+        <a href="#resume" className="cursor-pointer hover:text-blue-100 ">
           Resume
         </a>
-        <a href="#about-me" className="cursor-pointer hover:text-blue-100 ">
+        <a href="#contact" className="cursor-pointer hover:text-blue-100 ">
           Contact Me
         </a>
       </div>

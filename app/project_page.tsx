@@ -9,7 +9,6 @@ export default function Home() {
             PROJECTS
           </div>
         </div>
-       
       </main>
     );
   }
