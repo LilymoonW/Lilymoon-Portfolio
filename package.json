@@ -1,7 +1,6 @@
 {
   "name": "practice",
   "homepage": "https://github.com/LilymoonW.github.io/Lilymoon-Portfolio",
-
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,11 +10,11 @@
     "lint": "next lint",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.9",
+    "lucide-react": "^0.515.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "^14.2.15",
     "next-themes": "^0.3.0",
