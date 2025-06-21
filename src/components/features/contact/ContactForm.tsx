@@ -8,6 +8,7 @@ const ContactForm: React.FC<ContactFormProps> = () => {
     name: "",
     email: "",
     message: "",
+    
   });
 
   const handleChange = (
