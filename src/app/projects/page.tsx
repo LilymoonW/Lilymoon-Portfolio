@@ -58,6 +58,7 @@ export default function ProjectsPage() {
               <p className="text-gray-300 mb-8 text-lg">End-to-end apps with both frontend and backend logic.</p>
               <ProjectGrid items={projects.fullStack.map(project => ({ 
                 ...project, 
+                link: (project as any).link ?? "",
                 featured: false 
               }))} />
             </section>
@@ -72,6 +73,7 @@ export default function ProjectsPage() {
               <p className="text-gray-300 mb-8 text-lg">Projects focused on data analysis, machine learning, and data visualization.</p>
               <ProjectGrid items={projects.dataHeavy.map(project => ({ 
                 ...project, 
+                link: (project as any).link ?? "",
                 featured: false 
               }))} />
             </section>
@@ -85,6 +87,7 @@ export default function ProjectsPage() {
               <p className="text-gray-300 mb-8 text-lg">Games, visualizations, or fun side projects with unique ideas.</p>
               <ProjectGrid items={projects.creativeExperimental.map(project => ({ 
                 ...project, 
+                link: (project as any).link ?? "",
                 featured: false 
               }))} />
             </section>
