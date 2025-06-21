@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@/src/utils/utils";
+import { cn } from "@/utils/cn";
 import { ProjectCardGrid } from "../features/projects/ProjectCardGrid";
 
 export const ProjectGrid = ({

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa";
 import BackdropButton from "../../ui/BackdropButton";
 import { TextGenerateEffect } from "../../ui/TextGenerateEffect";
@@ -42,7 +43,7 @@ const Hero = () => {
           </div>
 
           {/* image of me */}
-          <img src="/me2.png" alt="picture of me" width={375 } />
+          <Image src="/me2.png" alt="picture of me" width={375} height={375} />
         </div>
       </Vortex>
     </div>

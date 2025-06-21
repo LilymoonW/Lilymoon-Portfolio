@@ -476,7 +476,7 @@ export const Skills = () => {
                     {expandedSections.interests && (
                       <div className="mt-4 bg-black/40 border border-white/20 rounded-2xl p-5 text-sm text-gray-200 leading-relaxed shadow-inner">
                         <p>
-                          I'm drawn to full-stack web development where design, UI/UX,
+                          I&apos;m drawn to full-stack web development where design, UI/UX,
                           and clean code come together to create intuitive,
                           user-centered experiences. I love building things that are
                           both functional and beautifully crafted.
@@ -514,10 +514,10 @@ export const Skills = () => {
                     {expandedSections.personality && (
                       <div className="mt-4 bg-black/40 border border-white/20 rounded-2xl p-5 text-sm text-gray-200 leading-relaxed shadow-inner">
                         <p>
-                          I'm a driven and passionate creator fueled by curiosity and
+                          I&apos;m a driven and passionate creator fueled by curiosity and
                           a love for learning. I thrive on spontaneous ideas, often
                           chasing creative sparks wherever they lead—sometimes all at
-                          once. A dreamer at heart, I'm always imagining what could be
+                          once. A dreamer at heart, I&apos;m always imagining what could be
                           built next, blending fun with purpose in everything I do.
                         </p>
                       </div>
@@ -554,16 +554,16 @@ export const Skills = () => {
                     {expandedSections.hobbies && (
                       <div className="mt-4 bg-black/40 border border-white/20 rounded-2xl p-5 text-sm text-gray-200 leading-relaxed shadow-inner">
                         <p>
-                          Whether it's exploring cute new cafes to work at,
+                          Whether it&apos;s exploring cute new cafes to work at,
                           deep-diving into niche interests like raising silkworms,
                           mechanical keyboards, orca whales, or the psychology of
-                          colors — I'm always chasing curiosity. I love watching true
+                          colors — I&apos;m always chasing curiosity. I love watching true
                           crime podcasts, painting or sketching characters from my
                           favorite shows, coding side projects, learning K-pop dances,
-                          and dancing competitively in DanceSport (ballroom!). I'm
+                          and dancing competitively in DanceSport (ballroom!). I&apos;m
                           always open to connecting and meeting new people, so feel
                           free to message me just to chat! Ask me about my dog or my
-                          current hyperfixation show and I'll definitely have a lot to
+                          current hyperfixation show and I&apos;ll definitely have a lot to
                           say.
                         </p>
                       </div>

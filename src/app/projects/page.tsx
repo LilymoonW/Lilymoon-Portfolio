@@ -1,6 +1,6 @@
-import { experiences, projects } from "@/src/components/features/projects/ProjectsData";
-import { ProjectGrid } from "@/src/components/ui/ProjectGrid";
-import { TextGenerateEffect } from "@/src/components/ui/TextGenerateEffect";
+import { experiences, projects } from "@/components/features/projects/ProjectsData";
+import { ProjectGrid } from "@/components/ui/ProjectGrid";
+import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
 import { BarChart3, Code, Palette, Sparkles } from 'lucide-react';
 import Link from "next/link";
 
