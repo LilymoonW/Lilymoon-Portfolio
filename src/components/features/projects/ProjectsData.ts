@@ -27,7 +27,7 @@ export const projects = {
       title: "HealthBridge",
       category: "UI/UX & Design",
       description: "Designed a Figma prototype for an interactive web app that demystifies healthcare insurance by simplifying jargon, estimating out-of-pocket costs, and featuring an AI chatbot for real-time support.",
-      image: "/healthbridge.png",
+      image: "/healthBridge.png",
       technologies: ["Figma", "UI/UX Design"],
       status: "Completed",
       liveLink: "https://www.figma.com/proto/5S5Y3uOnQwg8QLGItxaOLU/HackBrown?node-id=11-882&p=f&t=lgEdfdDjBNaY75On-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=11%3A882"
@@ -43,6 +43,15 @@ export const projects = {
     }
   ],
   fullStack: [
+    {
+      id: 0,
+      title: "Punchie Pass",
+      category: "Full-Stack Builds",
+      description: "A cute habit tracker that allows users to create a punch pass for their habits and track their progress. It is a full-stack application that uses React for the frontend and Firebase for the backend.",
+      image: "/punchiePass.png",
+      technologies: ["Firebase", "React", "HTML", "CSS", "JavaScript"],
+      status: "In Progress",
+    },
     {
       id: 1,
       title: "SMT Word Adventure",
