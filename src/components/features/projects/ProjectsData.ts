@@ -156,7 +156,7 @@ export const experiences = [
     id: 1,
     title: "Website Development Intern",
     company: "Fertility Within Reach",
-    duration: "Feb 2024 - Present",
+    duration: "Feb 2025 - Present",
     description: "Created dynamic graphs using JavaScript, prototyped Figma designs, created data visualization tools to enhance navigation to improve site readability, hosted on GoDaddy. Designed JSON datasets to visualize fertility healthcare laws, exemptions, and initiatives across U.S. states. Collaborated in development meetings and incorporated user feedback to refine website content and UI.",
     technologies: ["JavaScript", "Figma", "Data Visualization", "JSON", "GoDaddy", "UI/UX Design"]
   },
