@@ -153,6 +153,15 @@ export const projects = {
 
 export const experiences = [
   {
+    id: 0,
+    title: "Frontend Development Lead",
+    company: "ResearchMD",
+    duration: "June 2025 - Present",
+    description: "  ReSearchMD is a national platform based in Canada, dedicated to connecting medical students with research mentors across the country. Led front-end dev using Figma + responsive design to deliver clean, accessible UI. Mentored junior dev and ran team check-ins to align design + code quality.Streamlined design integration, accelerating UI deployment and team efficiency",
+    technologies: ["Figma", "WordPress", "Responsive Design", "UI/UX", "Mentorship", "Team Collaboration"]
+  },
+
+  {
     id: 1,
     title: "Website Development Intern",
     company: "Fertility Within Reach",
